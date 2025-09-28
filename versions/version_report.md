@@ -1,16 +1,21 @@
 # Version Control Report
-Generated: 2025-09-27 23:23:11
+Generated: 2025-09-27 23:23:57
 
 ## Summary
-- Total Versions: 1
-- Latest Version: 20250927_232311
+- Total Versions: 2
+- Latest Version: 20250927_232357
 - Version Control Location: /Users/owner/GitHub/SYNC/case-management/versions
 
 ## Recent Versions
 
+### Version 20250927_232357
+- **Timestamp:** 2025-09-27T23:23:57
+- **Description:** Ontario Court Forms v1.0 - Complete form set generated
+- **Git Commit:** 6b845b52
+
 ### Version 20250927_232311
 - **Timestamp:** 2025-09-27T23:23:11
-- **Description:** Ontario Court Forms v1.0 - Complete form set generated
+- **Description:** Auto-version: Uncommitted changes detected
 - **Git Commit:** ec48eda3
 
 ## Current System Status
