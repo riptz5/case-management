@@ -1,7 +1,7 @@
 {
   "timeline": [
     {
-      "id": 312438278834176430,
+      "id": 695590992658412444,
       "date": "2025-09-22",
       "title": "_chat.txt",
       "description": "Category: correspondence/messages",
@@ -9,7 +9,7 @@
       "type": "archived"
     },
     {
-      "id": -2625860357537399961,
+      "id": -1798582703867777018,
       "date": "2025-09-22",
       "title": "_chat.txt",
       "description": "Category: correspondence/messages",
@@ -17,7 +17,23 @@
       "type": "archived"
     },
     {
-      "id": 1052141344321855568,
+      "id": -6592351829874780349,
+      "date": "2025-09-22",
+      "title": "_chat.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 379168959190149163,
+      "date": "2025-09-22",
+      "title": "_chat.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 1230902099525035471,
       "date": "2025-09-26",
       "title": "conversations.txt",
       "description": "Category: correspondence/messages",
@@ -25,7 +41,7 @@
       "type": "archived"
     },
     {
-      "id": -1346396517873416840,
+      "id": -1082133737981021586,
       "date": "2025-09-26",
       "title": "conversations.txt",
       "description": "Category: correspondence/messages",
@@ -33,7 +49,23 @@
       "type": "archived"
     },
     {
-      "id": 1497400697850737526,
+      "id": 7636891828764165436,
+      "date": "2025-09-26",
+      "title": "conversations.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 7581984497717652148,
+      "date": "2025-09-26",
+      "title": "conversations.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": -5960080038794575494,
       "date": "2025-09-26",
       "title": "Sole caregiver.gsheet",
       "description": "Category: evidence/supporting_documents",
@@ -41,7 +73,7 @@
       "type": "archived"
     },
     {
-      "id": 225522654022445711,
+      "id": -1614573205494772715,
       "date": "2025-09-26",
       "title": "Sole caregiver.gsheet",
       "description": "Category: evidence/supporting_documents",
@@ -49,7 +81,23 @@
       "type": "archived"
     },
     {
-      "id": -6698009271201767841,
+      "id": 3560902634659301384,
+      "date": "2025-09-26",
+      "title": "Sole caregiver.gsheet",
+      "description": "Category: evidence/supporting_documents",
+      "priority": "low",
+      "type": "archived"
+    },
+    {
+      "id": 4025047826748250232,
+      "date": "2025-09-26",
+      "title": "Sole caregiver.gsheet",
+      "description": "Category: evidence/supporting_documents",
+      "priority": "low",
+      "type": "archived"
+    },
+    {
+      "id": -6862427497752046162,
       "date": "2025-09-26",
       "title": "Communications.rtf",
       "description": "Category: correspondence/emails",
@@ -57,7 +105,7 @@
       "type": "archived"
     },
     {
-      "id": 1550448621959667347,
+      "id": 3211274672401862225,
       "date": "2025-09-26",
       "title": "Communications.rtf",
       "description": "Category: correspondence/emails",
@@ -65,7 +113,23 @@
       "type": "archived"
     },
     {
-      "id": 2779356447218158513,
+      "id": -6247836436293684573,
+      "date": "2025-09-26",
+      "title": "Communications.rtf",
+      "description": "Category: correspondence/emails",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 7009571986130423511,
+      "date": "2025-09-26",
+      "title": "Communications.rtf",
+      "description": "Category: correspondence/emails",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 9030125225359334570,
       "date": "2025-09-26",
       "title": "@history.docx",
       "description": "Category: correspondence/messages",
@@ -73,7 +137,23 @@
       "type": "archived"
     },
     {
-      "id": 5837677663407433039,
+      "id": -5772662640116356817,
+      "date": "2025-09-26",
+      "title": "@history.docx",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": -5978940536586684011,
+      "date": "2025-09-26",
+      "title": "@history.docx",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": -3825112180964517561,
       "date": "2025-09-26",
       "title": "@history.docx",
       "description": "Category: correspondence/messages",
@@ -83,7 +163,7 @@
   ],
   "evidence": [
     {
-      "id": 1497400697850737526,
+      "id": -5960080038794575494,
       "title": "Sole caregiver.gsheet",
       "type": "supporting_documents",
       "description": "Keywords: caregiver, sole",
@@ -91,7 +171,7 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": 225522654022445711,
+      "id": -1614573205494772715,
       "title": "Sole caregiver.gsheet",
       "type": "supporting_documents",
       "description": "Keywords: caregiver, sole",
@@ -99,7 +179,23 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": 1052141344321855568,
+      "id": 3560902634659301384,
+      "title": "Sole caregiver.gsheet",
+      "type": "supporting_documents",
+      "description": "Keywords: caregiver, sole",
+      "relevance": "low",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 4025047826748250232,
+      "title": "Sole caregiver.gsheet",
+      "type": "supporting_documents",
+      "description": "Keywords: caregiver, sole",
+      "relevance": "low",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 1230902099525035471,
       "title": "conversations.txt",
       "type": "messages",
       "description": "Keywords: ",
@@ -107,7 +203,7 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": 2779356447218158513,
+      "id": 9030125225359334570,
       "title": "@history.docx",
       "type": "messages",
       "description": "Keywords: ",
@@ -115,7 +211,7 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": 312438278834176430,
+      "id": 695590992658412444,
       "title": "_chat.txt",
       "type": "messages",
       "description": "Keywords: ",
@@ -123,7 +219,7 @@
       "dateAdded": "2025-09-22"
     },
     {
-      "id": 5837677663407433039,
+      "id": -5772662640116356817,
       "title": "@history.docx",
       "type": "messages",
       "description": "Keywords: ",
@@ -131,7 +227,23 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": -1346396517873416840,
+      "id": -5978940536586684011,
+      "title": "@history.docx",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -3825112180964517561,
+      "title": "@history.docx",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -1082133737981021586,
       "title": "conversations.txt",
       "type": "messages",
       "description": "Keywords: ",
@@ -139,7 +251,15 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": -2625860357537399961,
+      "id": 7636891828764165436,
+      "title": "conversations.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -1798582703867777018,
       "title": "_chat.txt",
       "type": "messages",
       "description": "Keywords: ",
@@ -147,7 +267,31 @@
       "dateAdded": "2025-09-22"
     },
     {
-      "id": -6698009271201767841,
+      "id": 7581984497717652148,
+      "title": "conversations.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -6592351829874780349,
+      "title": "_chat.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-22"
+    },
+    {
+      "id": 379168959190149163,
+      "title": "_chat.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-22"
+    },
+    {
+      "id": -6862427497752046162,
       "title": "Communications.rtf",
       "type": "emails",
       "description": "Keywords: ",
@@ -155,7 +299,23 @@
       "dateAdded": "2025-09-26"
     },
     {
-      "id": 1550448621959667347,
+      "id": 3211274672401862225,
+      "title": "Communications.rtf",
+      "type": "emails",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -6247836436293684573,
+      "title": "Communications.rtf",
+      "type": "emails",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 7009571986130423511,
       "title": "Communications.rtf",
       "type": "emails",
       "description": "Keywords: ",
@@ -165,8 +325,8 @@
   ],
   "correspondence": [],
   "strategy": {
-    "case_strength_score": 50,
-    "total_evidence_files": 10,
+    "case_strength_score": 100,
+    "total_evidence_files": 20,
     "high_priority_evidence": 0,
     "evidence_categories": 3
   }

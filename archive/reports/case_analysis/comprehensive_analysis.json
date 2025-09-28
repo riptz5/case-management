@@ -1,9 +1,9 @@
 {
-  "generated": "2025-09-27T23:11:16.415547",
+  "generated": "2025-09-27T23:35:01.118868",
   "case_name": "Amazon Q Sole Caregiver ESA Accommodation",
   "analysis_summary": {
-    "case_strength_score": 50,
-    "total_evidence_files": 10,
+    "case_strength_score": 100,
+    "total_evidence_files": 20,
     "high_priority_evidence": 0,
     "evidence_categories": 3
   },

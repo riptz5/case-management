@@ -1,8 +1,19 @@
 {
-  "generated": "2025-09-27T23:11:16.413274",
-  "total_files": 10,
+  "generated": "2025-09-27T23:35:01.116364",
+  "total_files": 20,
   "categories": {
     "evidence/supporting_documents": [
+      {
+        "filename": "Sole caregiver.gsheet",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_233501_Sole caregiver.gsheet",
+        "relevance_score": 85,
+        "priority": "low",
+        "keywords": [
+          "caregiver",
+          "sole"
+        ],
+        "date": "2025-09-26T14:08:52"
+      },
       {
         "filename": "Sole caregiver.gsheet",
         "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_231116_Sole caregiver.gsheet",
@@ -17,6 +28,17 @@
       {
         "filename": "Sole caregiver.gsheet",
         "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_231056_Sole caregiver.gsheet",
+        "relevance_score": 85,
+        "priority": "low",
+        "keywords": [
+          "caregiver",
+          "sole"
+        ],
+        "date": "2025-09-26T14:08:52"
+      },
+      {
+        "filename": "Sole caregiver.gsheet",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_233455_Sole caregiver.gsheet",
         "relevance_score": 85,
         "priority": "low",
         "keywords": [
@@ -53,11 +75,35 @@
       },
       {
         "filename": "@history.docx",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233501_@history.docx",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T16:54:45"
+      },
+      {
+        "filename": "@history.docx",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233455_@history.docx",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T16:54:45"
+      },
+      {
+        "filename": "@history.docx",
         "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231116_@history.docx",
         "relevance_score": 70,
         "priority": "medium",
         "keywords": [],
         "date": "2025-09-26T16:54:45"
+      },
+      {
+        "filename": "conversations.txt",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233455_conversations.txt",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T03:55:30"
       },
       {
         "filename": "conversations.txt",
@@ -69,7 +115,31 @@
       },
       {
         "filename": "_chat.txt",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233501__chat.txt",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-22T18:34:28"
+      },
+      {
+        "filename": "conversations.txt",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233501_conversations.txt",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T03:55:30"
+      },
+      {
+        "filename": "_chat.txt",
         "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231116__chat.txt",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-22T18:34:28"
+      },
+      {
+        "filename": "_chat.txt",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_233455__chat.txt",
         "relevance_score": 70,
         "priority": "medium",
         "keywords": [],
@@ -87,7 +157,23 @@
       },
       {
         "filename": "Communications.rtf",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/emails/20250927_233455_Communications.rtf",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T14:41:58"
+      },
+      {
+        "filename": "Communications.rtf",
         "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/emails/20250927_231116_Communications.rtf",
+        "relevance_score": 70,
+        "priority": "medium",
+        "keywords": [],
+        "date": "2025-09-26T14:41:58"
+      },
+      {
+        "filename": "Communications.rtf",
+        "archived_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/emails/20250927_233501_Communications.rtf",
         "relevance_score": 70,
         "priority": "medium",
         "keywords": [],
@@ -100,9 +186,9 @@
     "total_categories": 3,
     "high_priority_count": 0,
     "category_breakdown": {
-      "evidence/supporting_documents": 2,
-      "correspondence/messages": 6,
-      "correspondence/emails": 2
+      "evidence/supporting_documents": 4,
+      "correspondence/messages": 12,
+      "correspondence/emails": 4
     }
   }
 }

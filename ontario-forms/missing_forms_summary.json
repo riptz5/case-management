@@ -1,0 +1,24 @@
+{
+  "generated": "2025-09-27T23:33:59.953225",
+  "missing_forms_added": 8,
+  "forms_list": [
+    "Form_14A_Affidavit.txt",
+    "Emergency_Motion_Request.txt",
+    "Supreme_Court_Application.txt",
+    "FACS_Niagara_Complaint.txt",
+    "Ontario_Police_Report.txt",
+    "Niagara_Police_Complaint.txt",
+    "Peel_Police_Report.txt",
+    "automated-form-processor.py"
+  ],
+  "jurisdictions": [
+    "Ontario Family Court",
+    "Supreme Court of Canada",
+    "FACS Niagara",
+    "Ontario Police Services",
+    "Niagara Regional Police",
+    "Peel Regional Police"
+  ],
+  "automated_processing": true,
+  "location": "/Users/owner/GitHub/SYNC/case-management/ontario-forms"
+}
