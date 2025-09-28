@@ -1,0 +1,63 @@
+{
+  "start_time": "2025-09-27T23:38:55.713334",
+  "scripts_run": [
+    {
+      "name": "Original Ontario Court Forms",
+      "script": "ontario-court-forms.py",
+      "description": "Generate Forms 14, 8, 35.1, 14B, 6B",
+      "success": true,
+      "duration": 0.132092,
+      "output": "\ud83c\udfdb\ufe0f Generating Ontario Family Court Forms...\n\u2705 Form 14: Application (General)\n\u2705 Form 8: Financial Statement\n\u2705 Form 35.1: Affidavit in Support\n\u2705 Form 14B: Motion\n\u2705 Form 6B: Continuing Record\n\u2705 Emergency Motion Checklist\n\n\u2705 ALL FORMS GENERATED!\n\ud83d\udcc1 Location: /Users/owner/GitHub/SYNC/case-management/ontario-forms\n\ud83d\udccb Total Forms: 6\n",
+      "error": ""
+    },
+    {
+      "name": "Multi-Jurisdiction Forms",
+      "script": "multi-jurisdiction-forms.py",
+      "description": "Generate Form 14A, Emergency Motion, Police Reports, FACS Complaints",
+      "success": true,
+      "duration": 0.111122,
+      "output": "\ud83c\udfdb\ufe0f Generating Missing Legal Forms...\n\u2705 Form 14A: Affidavit (General)\n\u2705 Emergency Motion Request Form\n\u2705 Supreme Court Application\n\u2705 FACS Niagara Complaint Form\n\u2705 Ontario Police Report\n\u2705 Niagara Police Complaint\n\u2705 Peel Police Report\n\u2705 Automated Form Processor\n\n\u2705 ALL MISSING FORMS GENERATED!\n\ud83d\udcc1 Location: /Users/owner/GitHub/SYNC/case-management/ontario-forms\n\ud83d\udccb Total New Forms: 8\n\ud83e\udd16 Automated Processing: Enabled\n",
+      "error": ""
+    },
+    {
+      "name": "Form Identification System",
+      "script": "form-identification-system.py",
+      "description": "AI-powered document identification and analysis",
+      "success": true,
+      "duration": 79.117969,
+      "output": "\ud83d\udd0d Starting Automated Form Identification...\n\ud83d\udcc1 Scanning: /Users/owner/GitHub/SYNC/case-management/archive\n   Found 16 files\n\ud83d\udcc1 Scanning: /Users/owner/GitHub/SYNC/INGEST\n   Found 4 files\n\ud83d\udcc1 Scanning: /Users/owner/GitHub/SYNC/solecaregiverontario/approved\n   Found 0 files\n\n\u2705 IDENTIFICATION COMPLETE!\n\ud83d\udcca Total Files Analyzed: 20\n\ud83c\udfaf High Relevance Files: 15\n\ud83d\udccb Document Types Found: 3\n\ud83d\udcbe Report saved to: form_identification_report.json\n\n\ud83d\udd25 TOP RELEVANT FILES:\n   20250927_231116_conversations.txt - 100% (Form_14A_Affidavit)\n   20250927_233501_conversations.txt - 100% (Form_14A_Affidavit)\n   20250927_233455_conversations.txt - 100% (Form_14A_Affidavit)\n   20250927_231056_conversations.txt - 100% (Form_14A_Affidavit)\n   20250927_231056_Communications.rtf - 100% (Legal_Correspondence)\n",
+      "error": ""
+    },
+    {
+      "name": "Enhanced Automation",
+      "script": "enhanced-automation.py",
+      "description": "File organization and evidence analysis",
+      "success": true,
+      "duration": 0.475925,
+      "output": "2025-09-27 23:40:15 - SETUP: Enhanced folder structure created\n\ud83d\ude80 Starting Enhanced Case Management Automation...\n\ud83d\udcc1 Archiving existing files...\n2025-09-27 23:40:15 - ARCHIVED: Communications.rtf -> correspondence/emails\n2025-09-27 23:40:15 - ARCHIVED: conversations.txt -> correspondence/messages\n2025-09-27 23:40:15 - ARCHIVED: @history.docx -> correspondence/messages\n2025-09-27 23:40:15 - ARCHIVED: Sole caregiver.gsheet -> evidence/supporting_documents\n2025-09-27 23:40:15 - ARCHIVED: _chat.txt -> correspondence/messages\n2025-09-27 23:40:15 - ARCHIVE: Processed 5 files\n\ud83d\udcc5 Generating comprehensive timeline...\n2025-09-27 23:40:15 - ERROR: Timeline processing failed for /Users/owner/GitHub/SYNC/case-management/archive/reports/case_analysis/comprehensive_analysis.json: 'original_path'\n2025-09-27 23:40:15 - ERROR: Timeline processing failed for /Users/owner/GitHub/SYNC/case-management/archive/reports/evidence_summaries/evidence_database.json: 'original_path'\n2025-09-27 23:40:15 - ERROR: Timeline processing failed for /Users/owner/GitHub/SYNC/case-management/archive/reports/timeline/comprehensive_timeline.json: 'list' object has no attribute 'get'\n2025-09-27 23:40:15 - TIMELINE: Generated timeline with 25 events\n\ud83d\udcca Creating evidence database...\n2025-09-27 23:40:15 - ERROR: Evidence DB processing failed: 'category'\n2025-09-27 23:40:15 - ERROR: Evidence DB processing failed: 'category'\n2025-09-27 23:40:15 - ERROR: Evidence DB processing failed: list indices must be integers or slices, not str\n2025-09-27 23:40:15 - EVIDENCE_DB: Created database with 25 files\n\ud83c\udfaf Generating case analysis...\n2025-09-27 23:40:15 - ANALYSIS: Generated case analysis report\n\ud83c\udf10 Syncing with web interface...\n2025-09-27 23:40:15 - SYNC: Web interface data synchronized\n\n\u2705 AUTOMATION COMPLETE!\n\ud83d\udcc1 Archived Files: 5\n\ud83d\udcc5 Timeline Events: 25\n\ud83d\udcca Evidence Items: 25\n\ud83c\udfaf Case Strength: 100%\n\ud83c\udf10 Web Sync: Success\n\ud83d\udcc2 Archive Location: /Users/owner/GitHub/SYNC/case-management/archive\n",
+      "error": ""
+    },
+    {
+      "name": "Integration Manager",
+      "script": "integration-manager.py",
+      "description": "Cross-system integration and synchronization",
+      "success": true,
+      "duration": 6.626979,
+      "output": "[INFO] INTEGRATION: Starting complete integration process\n[INFO] AUTOMATION: Starting enhanced case automation\n[INFO] AUTOMATION: Enhanced automation completed successfully\n[INFO] SYNC: Syncing no-code templates with case management\n[INFO] SYNC: Legal templates synced: 3 templates\n[INFO] DASHBOARD: Creating integration dashboard\n[INFO] DASHBOARD: HTML dashboard generated successfully\n[INFO] DASHBOARD: Integration dashboard created successfully\n[INFO] GITHUB: Updating GitHub repository\n[INFO] GITHUB: Repository updated successfully\n[INFO] INTEGRATION: Integration completed: 4/4 steps successful\n\n\u2705 INTEGRATION SUCCESSFUL!\n\ud83d\ude80 All systems are integrated and synchronized\n\ud83d\udcca Dashboard available at: case-management/integration_dashboard.html\n\ud83c\udf10 Case Management: case-management/index.html\n\ud83d\udee0\ufe0f No-Code Platform: no-code-platform/index.html\n\ud83e\udd16 Automation: Enhanced automation running\n",
+      "error": ""
+    },
+    {
+      "name": "Version Control",
+      "script": "version-control.py",
+      "description": "Git integration and version tracking",
+      "success": true,
+      "duration": 0.226496,
+      "output": "[main 2a8860b] Auto-commit: Version 20250927_234022\n 2 files changed, 76 insertions(+), 4 deletions(-)\n create mode 100644 versions/version_20250927_234022.json\n\u2705 Version snapshot created: 20250927_234022\n\ud83d\udcca Version report generated: /Users/owner/GitHub/SYNC/case-management/versions/version_report.md\n\n\ud83d\udccb Available Versions: 3\n  - 20250927_234022: Ontario Court Forms v1.0 - Complete form set generated\n  - 20250927_232357: Auto-version: Uncommitted changes detected\n  - 20250927_232311: Auto-version: Uncommitted changes detected\n\u2705 Version snapshot created: 20250927_234022\n\ud83d\udd04 Auto-version created: 20250927_234022\n",
+      "error": ""
+    }
+  ],
+  "successful": 6,
+  "failed": 0,
+  "total_time": 86.690929,
+  "end_time": "2025-09-27T23:40:22.404273"
+}

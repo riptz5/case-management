@@ -1,0 +1,28 @@
+{
+  "ontario_family_court": [
+    "Form 14: Application (General)",
+    "Form 14A: Affidavit (General) - \u2728 NEW",
+    "Form 14B: Motion",
+    "Form 8: Financial Statement",
+    "Form 35.1: Affidavit in Support",
+    "Form 6B: Continuing Record",
+    "Emergency Motion Request - \u2728 NEW"
+  ],
+  "supreme_court": [
+    "Application for Leave to Appeal - \u2728 NEW"
+  ],
+  "police_services": [
+    "Ontario Police Incident Report - \u2728 NEW",
+    "Niagara Regional Police Complaint - \u2728 NEW",
+    "Peel Regional Police Report - \u2728 NEW"
+  ],
+  "family_services": [
+    "FACS Niagara Complaint Form - \u2728 NEW"
+  ],
+  "automated_processes": [
+    "Form Identification System - \u2728 NEW",
+    "Multi-Jurisdiction Form Generator - \u2728 NEW",
+    "Automated File Processing - \u2728 NEW",
+    "AI-Powered Document Analysis - \u2728 NEW"
+  ]
+}
