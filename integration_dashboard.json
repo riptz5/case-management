@@ -1,10 +1,10 @@
 {
-  "last_updated": "2025-09-27T23:35:01.126004",
+  "last_updated": "2025-09-27T23:40:16.092731",
   "systems": {
     "case_management": {
       "active": true,
       "files_present": 5,
-      "last_modified": "2025-09-27T23:11:36.327605",
+      "last_modified": "2025-09-27T23:37:19.459394",
       "archived_data": true
     },
     "nocode_platform": {
@@ -23,24 +23,24 @@
   "integration": {
     "data_sync": {
       "synchronized": true,
-      "last_sync": "2025-09-27T23:35:01.119635",
+      "last_sync": "2025-09-27T23:40:16.079216",
       "sync_files_present": 2
     },
     "template_sync": {
       "synchronized": true,
       "templates_count": 3,
-      "last_updated": "2025-09-27T23:35:01.125861"
+      "last_updated": "2025-09-27T23:40:16.091993"
     },
     "file_processing": {
       "active": true,
-      "archived_files": 71,
+      "archived_files": 89,
       "categories": 6
     }
   },
   "statistics": {
-    "total_files_processed": 46,
+    "total_files_processed": 64,
     "integration_uptime": "100%",
-    "last_full_sync": "2025-09-27T23:35:01.127926",
+    "last_full_sync": "2025-09-27T23:40:16.097456",
     "error_count": 0,
     "success_rate": "100%"
   }

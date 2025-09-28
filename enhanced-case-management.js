@@ -238,7 +238,7 @@ function generateStrategy() {
     }
 }
 
-// Enhanced template system with legal forms
+// Enhanced template system with legal forms and court documents
 function useTemplate(templateType) {
     try {
         let template = '';
@@ -261,6 +261,18 @@ function useTemplate(templateType) {
                 break;
             case 'accommodation-appeal':
                 template = generateAccommodationAppealTemplate();
+                break;
+            case 'form-14a':
+                template = generateForm14ATemplate();
+                break;
+            case 'emergency-motion':
+                template = generateEmergencyMotionTemplate();
+                break;
+            case 'police-report':
+                template = generatePoliceReportTemplate();
+                break;
+            case 'facs-complaint':
+                template = generateFACSComplaintTemplate();
                 break;
         }
         
@@ -567,6 +579,26 @@ function addEnhancedTemplates() {
                     id: 'accommodation-appeal',
                     title: '📋 Accommodation Appeal',
                     description: 'Appeal denied accommodation requests'
+                },
+                {
+                    id: 'form-14a',
+                    title: '🏛️ Form 14A Affidavit',
+                    description: 'Ontario Family Court affidavit template'
+                },
+                {
+                    id: 'emergency-motion',
+                    title: '🚨 Emergency Motion',
+                    description: 'Emergency court motion request'
+                },
+                {
+                    id: 'police-report',
+                    title: '👮 Police Report',
+                    description: 'Police incident report template'
+                },
+                {
+                    id: 'facs-complaint',
+                    title: '👨‍👩‍👧‍👦 FACS Complaint',
+                    description: 'Family services complaint form'
                 }
             ];
             
@@ -624,6 +656,291 @@ function exportAllData() {
     } catch (error) {
         console.error('Data export failed:', error);
         showErrorMessage('Failed to export data');
+    }
+}
+
+// New template generators for legal forms
+function generateForm14ATemplate() {
+    const currentDate = new Date().toLocaleDateString();
+    return `ONTARIO FAMILY COURT
+FORM 14A: AFFIDAVIT (GENERAL)
+
+Court File Number: _________________
+
+APPLICANT: [YOUR NAME]
+
+I, [YOUR FULL NAME], of the [City/Town] of ____________, in the Province of Ontario, MAKE OATH AND SAY/AFFIRM:
+
+1. I am the Applicant in this case and have personal knowledge of the matters set out in this affidavit.
+
+SOLE CAREGIVER CIRCUMSTANCES:
+
+2. I am the sole caregiver of [CHILD'S NAME], born [DATE OF BIRTH].
+
+3. I have been providing continuous care for the child since [DATE].
+
+4. The child resides with me at [FULL ADDRESS].
+
+CAREGIVING RESPONSIBILITIES:
+
+5. My daily caregiving duties include:
+   a) Preparing meals and ensuring proper nutrition
+   b) Maintaining hygiene and personal care
+   c) Providing transportation to school and activities
+   d) Managing medical appointments and healthcare
+   e) Supervising homework and educational support
+   f) Providing emotional support and guidance
+
+ESA ACCOMMODATION NEED:
+
+6. I have a disability that requires accommodation through my emotional support animal.
+
+7. My ESA is essential for:
+   a) Managing anxiety and stress related to caregiving
+   b) Maintaining emotional stability
+   c) Continuing employment to support the child
+   d) Providing consistent care
+
+EMERGENCY CIRCUMSTANCES:
+
+8. Emergency relief is required because [DESCRIBE SPECIFIC CIRCUMSTANCES].
+
+9. Without immediate court intervention, the child's welfare will be at risk.
+
+10. I am prepared to continue as sole caregiver and have the capacity to do so with proper ESA accommodation.
+
+SWORN/AFFIRMED before me at ____________, Ontario, this _____ day of _______, 20___.
+
+_________________________________     _________________________________
+Commissioner for Taking Affidavits     [YOUR SIGNATURE]
+                                      [YOUR PRINTED NAME]`;
+}
+
+function generateEmergencyMotionTemplate() {
+    const currentDate = new Date().toLocaleDateString();
+    return `ONTARIO FAMILY COURT
+EMERGENCY MOTION REQUEST
+
+Court File Number: _________________
+Date of Request: ${currentDate}
+
+APPLICANT: [YOUR NAME]
+ADDRESS: [YOUR ADDRESS]
+PHONE: [YOUR PHONE]
+EMAIL: [YOUR EMAIL]
+
+NATURE OF EMERGENCY:
+☐ Risk to child's safety or welfare
+☐ Urgent custody determination required
+☐ ESA accommodation needed for caregiving
+☐ Other: _________________________
+
+RELIEF SOUGHT ON EMERGENCY BASIS:
+1. Interim sole custody of [CHILD'S NAME]
+2. Declaration of sole caregiver status
+3. ESA accommodation order
+4. Interim child support
+5. Other: _________________________
+
+GROUNDS FOR EMERGENCY RELIEF:
+1. I am the sole primary caregiver
+2. Child's best interests require immediate protection
+3. Delay would cause irreparable harm
+4. ESA accommodation is essential for continued care
+5. [Additional grounds]: _______________
+
+SUPPORTING EVIDENCE ATTACHED:
+☐ Affidavit of Applicant
+☐ Medical documentation
+☐ Child's birth certificate
+☐ ESA documentation
+☐ Other: _________________________
+
+PROPOSED MOTION DATE: _______________
+PROPOSED TIME: ____________________
+
+I request that this motion be heard on an emergency basis due to the urgent circumstances described above.
+
+Date: ${currentDate}     _________________________________
+                          Signature of Applicant
+
+                          _________________________________
+                          Print Name`;
+}
+
+function generatePoliceReportTemplate() {
+    const currentDate = new Date().toLocaleDateString();
+    return `ONTARIO POLICE SERVICES
+INCIDENT REPORT FORM
+
+Report Number: _________________
+Date: ${currentDate}
+Time: _________________________
+Location: _____________________
+
+REPORTING PERSON:
+Name: _________________________________
+Address: ______________________________
+Phone: ________________________________
+Email: ________________________________
+
+INCIDENT TYPE:
+☐ Harassment
+☐ Discrimination
+☐ Threat
+☐ ESA interference
+☐ Child welfare concern
+☐ Other: _____________________________
+
+INCIDENT DETAILS:
+Date of Incident: ______________________
+Time of Incident: ______________________
+Location of Incident: __________________
+
+PERSONS INVOLVED:
+Suspect/Other Party:
+Name: _________________________________
+Address: ______________________________
+Phone: ________________________________
+
+Witnesses:
+1. Name: ______________________________
+   Contact: ___________________________
+
+2. Name: ______________________________
+   Contact: ___________________________
+
+DESCRIPTION OF INCIDENT:
+[Provide detailed description of what occurred]
+
+EVIDENCE:
+☐ Photos
+☐ Documents
+☐ Audio/Video
+☐ Physical evidence
+☐ Other: _____________________________
+
+INJURIES/DAMAGE:
+☐ No injuries
+☐ Minor injuries
+☐ Serious injuries
+☐ Property damage
+☐ Emotional distress
+
+OFFICER INFORMATION:
+Badge Number: _________________________
+Name: _________________________________
+Division: _____________________________
+Date: _________________________________`;
+}
+
+function generateFACSComplaintTemplate() {
+    const currentDate = new Date().toLocaleDateString();
+    return `FAMILY AND CHILDREN'S SERVICES NIAGARA
+COMPLAINT/CONCERN FORM
+
+Date: ${currentDate}
+File Number (if known): _________________
+
+COMPLAINANT INFORMATION:
+Name: _________________________________
+Address: ______________________________
+Phone: ________________________________
+Email: ________________________________
+Relationship to child: __________________
+
+CHILD INFORMATION:
+Name: _________________________________
+Date of Birth: _________________________
+Address: ______________________________
+Current Caregiver: _____________________
+
+NATURE OF COMPLAINT/CONCERN:
+☐ Service delivery issue
+☐ Worker conduct
+☐ Policy interpretation
+☐ ESA accommodation denial
+☐ Sole caregiver recognition
+☐ Other: _____________________________
+
+DETAILED DESCRIPTION:
+[Describe the situation, including dates, names, and specific concerns]
+
+RESOLUTION SOUGHT:
+1. Recognition of sole caregiver status
+2. ESA accommodation approval
+3. Service plan modification
+4. Worker reassignment
+5. Other: _____________________________
+
+PREVIOUS ATTEMPTS TO RESOLVE:
+☐ Spoke with worker
+☐ Spoke with supervisor
+☐ Formal complaint filed
+☐ Other: _____________________________
+
+SUPPORTING DOCUMENTATION ATTACHED:
+☐ Medical documentation
+☐ ESA certification
+☐ Correspondence
+☐ Court orders
+☐ Other: _____________________________
+
+I authorize FACS Niagara to investigate this complaint and contact relevant parties as necessary.
+
+Signature: ____________________________
+Date: ${currentDate}`;
+}
+
+// Load form identification results
+async function loadFormIdentificationResults() {
+    try {
+        const response = await fetch('./form_identification_report.json');
+        if (response.ok) {
+            const identificationData = await response.json();
+            displayIdentificationResults(identificationData);
+        }
+    } catch (error) {
+        console.error('Failed to load form identification results:', error);
+    }
+}
+
+function displayIdentificationResults(data) {
+    try {
+        // Add identification results to dashboard
+        const dashboardElement = document.getElementById('integration-dashboard');
+        if (dashboardElement) {
+            const resultsDiv = document.createElement('div');
+            resultsDiv.className = 'identification-results';
+            resultsDiv.innerHTML = `
+                <h3>🔍 Automated Form Identification Results</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">${data.total_files_analyzed}</span>
+                        <span class="stat-label">Files Analyzed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">${data.high_relevance_files.length}</span>
+                        <span class="stat-label">High Relevance</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">${Object.keys(data.document_type_summary).length}</span>
+                        <span class="stat-label">Document Types</span>
+                    </div>
+                </div>
+                <div class="top-files">
+                    <h4>Top Relevant Files:</h4>
+                    <ul>
+                        ${data.high_relevance_files.slice(0, 5).map(file => 
+                            `<li>${file.file} - ${file.score}% (${file.type})</li>`
+                        ).join('')}
+                    </ul>
+                </div>
+            `;
+            dashboardElement.appendChild(resultsDiv);
+        }
+    } catch (error) {
+        console.error('Failed to display identification results:', error);
     }
 }
 
