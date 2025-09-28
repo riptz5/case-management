@@ -1,0 +1,26 @@
+{
+  "generated": "2025-09-27T23:11:16.415547",
+  "case_name": "Amazon Q Sole Caregiver ESA Accommodation",
+  "analysis_summary": {
+    "case_strength_score": 50,
+    "total_evidence_files": 10,
+    "high_priority_evidence": 0,
+    "evidence_categories": 3
+  },
+  "strengths": [],
+  "risks": [
+    "Insufficient high-priority documentation"
+  ],
+  "recommendations": [
+    "Continue documenting all HR interactions",
+    "Maintain chronological timeline of events",
+    "Ensure ESA documentation is current and complete",
+    "Document sole caregiver responsibilities thoroughly"
+  ],
+  "next_actions": [
+    "Review and organize high-priority evidence",
+    "Follow up on pending HR requests",
+    "Update case timeline with recent events",
+    "Prepare comprehensive evidence summary"
+  ]
+}

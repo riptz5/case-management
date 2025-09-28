@@ -1,0 +1,41 @@
+{
+  "esa_request": {
+    "title": "ESA Accommodation Request",
+    "category": "legal",
+    "fields": [
+      "applicant_name",
+      "property_address",
+      "animal_type",
+      "disability_type",
+      "medical_provider",
+      "accommodation_needed"
+    ],
+    "template": "Subject: Formal Request for Emotional Support Animal Accommodation\n\nDate: {current_date}\n\nDear {recipient},\n\nI am formally requesting a reasonable accommodation under the Americans with Disabilities Act (ADA) for my emotional support animal (ESA).\n\nAPPLICANT INFORMATION:\nName: {applicant_name}\nAddress: {property_address}\n\nANIMAL INFORMATION:\nType: {animal_type}\nName: {animal_name}\n\nMEDICAL INFORMATION:\nDisability Type: {disability_type}\nMedical Provider: {medical_provider}\nLicense Number: {provider_license}\n\nACCOMMODATION REQUEST:\n{accommodation_needed}\n\nI have attached the required medical documentation and am available to discuss this request further.\n\nSincerely,\n{applicant_name}"
+  },
+  "hr_complaint": {
+    "title": "HR Complaint Form",
+    "category": "legal",
+    "fields": [
+      "employee_name",
+      "department",
+      "complaint_type",
+      "incident_date",
+      "complaint_details",
+      "desired_outcome"
+    ],
+    "template": "HR COMPLAINT FORM\n\nEmployee Information:\nName: {employee_name}\nID: {employee_id}\nDepartment: {department}\n\nComplaint Details:\nType: {complaint_type}\nDate of Incident: {incident_date}\nWitnesses: {witnesses}\n\nDescription:\n{complaint_details}\n\nPrevious Reports: {previous_reports}\n\nDesired Resolution:\n{desired_outcome}\n\nSubmitted: {current_date}\nSignature: {employee_name}"
+  },
+  "evidence_tracker": {
+    "title": "Evidence Tracking",
+    "category": "legal",
+    "fields": [
+      "evidence_title",
+      "evidence_type",
+      "date_created",
+      "relevance",
+      "description",
+      "keywords"
+    ],
+    "template": "EVIDENCE TRACKING RECORD\n\nEvidence ID: {evidence_id}\nTitle: {evidence_title}\nType: {evidence_type}\n\nDate Information:\nCreated/Received: {date_created}\nLogged: {current_date}\n\nSource Information:\nOrigin: {source}\nLocation: {location}\n\nCase Relevance:\nPriority: {relevance}\nKeywords: {keywords}\n\nDescription:\n{description}\n\nLogged by: {logged_by}"
+  }
+}

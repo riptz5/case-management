@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2025-09-22T18:34:28",
+    "title": "_chat.txt",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231056__chat.txt"
+  },
+  {
+    "date": "2025-09-22T18:34:28",
+    "title": "_chat.txt",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231116__chat.txt"
+  },
+  {
+    "date": "2025-09-26T03:55:30",
+    "title": "conversations.txt",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231056_conversations.txt"
+  },
+  {
+    "date": "2025-09-26T03:55:30",
+    "title": "conversations.txt",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231116_conversations.txt"
+  },
+  {
+    "date": "2025-09-26T14:08:52",
+    "title": "Sole caregiver.gsheet",
+    "category": "evidence/supporting_documents",
+    "priority": "low",
+    "relevance_score": 85,
+    "keywords": [
+      "caregiver",
+      "sole"
+    ],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_231116_Sole caregiver.gsheet"
+  },
+  {
+    "date": "2025-09-26T14:08:52",
+    "title": "Sole caregiver.gsheet",
+    "category": "evidence/supporting_documents",
+    "priority": "low",
+    "relevance_score": 85,
+    "keywords": [
+      "caregiver",
+      "sole"
+    ],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/evidence/supporting_documents/20250927_231056_Sole caregiver.gsheet"
+  },
+  {
+    "date": "2025-09-26T14:41:58",
+    "title": "Communications.rtf",
+    "category": "correspondence/emails",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/emails/20250927_231056_Communications.rtf"
+  },
+  {
+    "date": "2025-09-26T14:41:58",
+    "title": "Communications.rtf",
+    "category": "correspondence/emails",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/emails/20250927_231116_Communications.rtf"
+  },
+  {
+    "date": "2025-09-26T16:54:45",
+    "title": "@history.docx",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231056_@history.docx"
+  },
+  {
+    "date": "2025-09-26T16:54:45",
+    "title": "@history.docx",
+    "category": "correspondence/messages",
+    "priority": "medium",
+    "relevance_score": 70,
+    "keywords": [],
+    "file_path": "/Users/owner/GitHub/SYNC/case-management/archive/correspondence/messages/20250927_231116_@history.docx"
+  }
+]

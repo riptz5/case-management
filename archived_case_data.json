@@ -1,0 +1,173 @@
+{
+  "timeline": [
+    {
+      "id": 312438278834176430,
+      "date": "2025-09-22",
+      "title": "_chat.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": -2625860357537399961,
+      "date": "2025-09-22",
+      "title": "_chat.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 1052141344321855568,
+      "date": "2025-09-26",
+      "title": "conversations.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": -1346396517873416840,
+      "date": "2025-09-26",
+      "title": "conversations.txt",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 1497400697850737526,
+      "date": "2025-09-26",
+      "title": "Sole caregiver.gsheet",
+      "description": "Category: evidence/supporting_documents",
+      "priority": "low",
+      "type": "archived"
+    },
+    {
+      "id": 225522654022445711,
+      "date": "2025-09-26",
+      "title": "Sole caregiver.gsheet",
+      "description": "Category: evidence/supporting_documents",
+      "priority": "low",
+      "type": "archived"
+    },
+    {
+      "id": -6698009271201767841,
+      "date": "2025-09-26",
+      "title": "Communications.rtf",
+      "description": "Category: correspondence/emails",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 1550448621959667347,
+      "date": "2025-09-26",
+      "title": "Communications.rtf",
+      "description": "Category: correspondence/emails",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 2779356447218158513,
+      "date": "2025-09-26",
+      "title": "@history.docx",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    },
+    {
+      "id": 5837677663407433039,
+      "date": "2025-09-26",
+      "title": "@history.docx",
+      "description": "Category: correspondence/messages",
+      "priority": "medium",
+      "type": "archived"
+    }
+  ],
+  "evidence": [
+    {
+      "id": 1497400697850737526,
+      "title": "Sole caregiver.gsheet",
+      "type": "supporting_documents",
+      "description": "Keywords: caregiver, sole",
+      "relevance": "low",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 225522654022445711,
+      "title": "Sole caregiver.gsheet",
+      "type": "supporting_documents",
+      "description": "Keywords: caregiver, sole",
+      "relevance": "low",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 1052141344321855568,
+      "title": "conversations.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 2779356447218158513,
+      "title": "@history.docx",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 312438278834176430,
+      "title": "_chat.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-22"
+    },
+    {
+      "id": 5837677663407433039,
+      "title": "@history.docx",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -1346396517873416840,
+      "title": "conversations.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": -2625860357537399961,
+      "title": "_chat.txt",
+      "type": "messages",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-22"
+    },
+    {
+      "id": -6698009271201767841,
+      "title": "Communications.rtf",
+      "type": "emails",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    },
+    {
+      "id": 1550448621959667347,
+      "title": "Communications.rtf",
+      "type": "emails",
+      "description": "Keywords: ",
+      "relevance": "medium",
+      "dateAdded": "2025-09-26"
+    }
+  ],
+  "correspondence": [],
+  "strategy": {
+    "case_strength_score": 50,
+    "total_evidence_files": 10,
+    "high_priority_evidence": 0,
+    "evidence_categories": 3
+  }
+}
