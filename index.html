@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Q Case Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚖️ Amazon Q Sole Caregiver Case</h1>
+            <p>AI-Assisted Case Management & Evidence Tracking</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="timeline">📅 Timeline</button>
+            <button class="tab-btn" data-tab="evidence">📁 Evidence</button>
+            <button class="tab-btn" data-tab="correspondence">📧 Correspondence</button>
+            <button class="tab-btn" data-tab="templates">📋 Templates</button>
+            <button class="tab-btn" data-tab="strategy">🎯 Strategy</button>
+        </nav>
+
+        <!-- Timeline Tab -->
+        <div id="timeline" class="tab-content active">
+            <div class="section-header">
+                <h2>Case Timeline</h2>
+                <button onclick="addTimelineEvent()" class="add-btn">+ Add Event</button>
+                <button onclick="exportTimeline()" class="export-btn">📤 Export</button>
+            </div>
+            <div id="timeline-container" class="timeline-view"></div>
+        </div>
+
+        <!-- Evidence Tab -->
+        <div id="evidence" class="tab-content">
+            <div class="section-header">
+                <h2>Evidence Management</h2>
+                <button onclick="addEvidence()" class="add-btn">+ Add Evidence</button>
+                <button onclick="generateEvidenceReport()" class="export-btn">📊 Generate Report</button>
+            </div>
+            <div class="evidence-grid" id="evidence-grid"></div>
+        </div>
+
+        <!-- Correspondence Tab -->
+        <div id="correspondence" class="tab-content">
+            <div class="section-header">
+                <h2>HR Correspondence</h2>
+                <button onclick="addCorrespondence()" class="add-btn">+ Add Email/Letter</button>
+                <button onclick="generateFollowUp()" class="ai-btn">🤖 AI Follow-up</button>
+            </div>
+            <div id="correspondence-list" class="correspondence-view"></div>
+        </div>
+
+        <!-- Templates Tab -->
+        <div id="templates" class="tab-content">
+            <div class="section-header">
+                <h2>Document Templates</h2>
+            </div>
+            <div class="templates-grid">
+                <div class="template-card" onclick="useTemplate('esa-request')">
+                    <h3>🏥 ESA Accommodation Request</h3>
+                    <p>Formal request for emotional support animal accommodation</p>
+                </div>
+                <div class="template-card" onclick="useTemplate('caregiver-statement')">
+                    <h3>👨👩👧👦 Sole Caregiver Statement</h3>
+                    <p>Documentation of primary caregiver responsibilities</p>
+                </div>
+                <div class="template-card" onclick="useTemplate('hr-followup')">
+                    <h3>📧 HR Follow-up Email</h3>
+                    <p>Professional follow-up for pending requests</p>
+                </div>
+                <div class="template-card" onclick="useTemplate('evidence-summary')">
+                    <h3>📋 Evidence Summary</h3>
+                    <p>Comprehensive case evidence compilation</p>
+                </div>
+            </div>
+            <div id="template-output" class="template-preview"></div>
+        </div>
+
+        <!-- Strategy Tab -->
+        <div id="strategy" class="tab-content">
+            <div class="section-header">
+                <h2>Case Strategy & AI Analysis</h2>
+                <button onclick="generateStrategy()" class="ai-btn">🤖 AI Strategy Analysis</button>
+            </div>
+            <div class="strategy-dashboard">
+                <div class="strategy-card">
+                    <h3>📊 Case Strength</h3>
+                    <div class="strength-meter">
+                        <div class="strength-bar" id="case-strength"></div>
+                    </div>
+                    <p id="strength-text">Analyzing...</p>
+                </div>
+                <div class="strategy-card">
+                    <h3>⚠️ Risk Factors</h3>
+                    <ul id="risk-factors"></ul>
+                </div>
+                <div class="strategy-card">
+                    <h3>✅ Strengths</h3>
+                    <ul id="case-strengths"></ul>
+                </div>
+                <div class="strategy-card">
+                    <h3>📋 Next Actions</h3>
+                    <ul id="next-actions"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="case-management.js"></script>
+</body>
+</html>
